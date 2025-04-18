@@ -1,3 +1,9 @@
+/* Index */
+.index-container {
+    background-color: #fff;
+    padding: 100px;
+}
+/* CV */
 strong,
 b {
     font-weight: bold;
@@ -130,16 +136,7 @@ li {
 }
 
 /* Form */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f2f5;
-    padding: 20px;
-}
-
-.container {
+.form-container {
     width: 100%;
     max-width: 500px;
     background-color: white;
