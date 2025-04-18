@@ -24,7 +24,6 @@ body {
     width: 210mm;
     background-color: #fff;
     padding: 44px 68px 0 68px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -128,4 +127,100 @@ li {
     background-color: #fff;
     color: #000;
     padding: 0 25px;
+}
+
+/* Form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-label,
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.radio-label input,
+.checkbox-label input {
+    margin-right: 10px;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.avatar-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
 }
